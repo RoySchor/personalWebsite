@@ -104,3 +104,8 @@ cd js
 ls
 cd ..
 ls
+git status
+git add .
+git commit -m "added additional changes"
+git push
+exit

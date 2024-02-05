@@ -40,11 +40,19 @@ img {
     width: 100%;
 }
 
+.text-brand {
+    color: var(--color-brand);
+}
+
 .full-height {
     min-height: 100vh;
     height: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 
@@ -60,6 +68,10 @@ img {
 }
 /* When you hover it changes the color of the buttons */
 .navbar .nav-link:hover {
+    color: var(--color-brand);
+}
+
+.navbar .nav-link.active {
     color: var(--color-brand);
 }
 
@@ -82,4 +94,43 @@ img {
     #content-wrapper {
         padding-left: var(--sidebar-width);
     }
+}
+
+/* Explore my work button */
+.btn {
+    padding: 12px 28px;
+    font-weight: 700;
+}
+
+.btn-brand {
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+    color: var(--color-base);
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: var(--color-brand2);
+    color: var(--color-base);
+    border-color: var(--color-brand2);
+}
+
+.custom-link {
+    font-weight: 700;
+    position: relative;
+}
+
+.custom-link::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-brand);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transition: all 0.4s;
+}
+
+.custom-link:hover::after {
+    width: 100%;
 }
