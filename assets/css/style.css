@@ -171,6 +171,16 @@ img {
     color: var(--color-body);
 }
 
+/* Resume Section */
+.custom-resume .custom-resume-image {
+    overflow: hidden;
+}
+
+.custom-resume .custom-resume-image img {
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+
 /* Contact Section */
 #contact .form-control {
     background-color: var(--color-base);

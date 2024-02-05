@@ -121,3 +121,7 @@ git add .
 git commit -m "finished-ish the projects sections"
 git push
 exit
+git add .
+git commit -m "added experience, education, and contact sections"
+git push
+exit
