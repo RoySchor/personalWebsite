@@ -40,7 +40,19 @@ img {
     width: 100%;
 }
 
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
 /* NavigationBar */
+.navbar {
+    background-color: var(--color-base);
+}
+
 .navbar .nav-link {
     font-weight: 700;
     text-transform: uppercase;
@@ -64,5 +76,10 @@ img {
 
     .navbar-brand img {
         border: 4px solid white;
+    }
+
+    /* Content */
+    #content-wrapper {
+        padding-left: var(--sidebar-width);
     }
 }

@@ -64,3 +64,43 @@ exit
 ls
 pwd
 exit
+ls
+pwd
+git remote add origin https://github.com/RoySchor/personalWebsite.git
+git init -b main
+git
+git status
+git init main
+pwd
+git init && git symbolic-ref HEAD refs/heads/main
+git remote add origin https://github.com/RoySchor/personalWebsite.git
+git branch -M main
+git push -u origin main
+git add .
+git statuts
+git status
+git reset
+git status
+git add .
+ls
+git commit -m "first commit"
+git config --global user.email "royschor@gmail.com"
+git config --global user.name "Roy Schor"
+git commit -m "first commit"
+git remote add origin https://github.com/RoySchor/personalWebsite.git
+git branch -M main
+git push -u origin main
+git remote add origin git@github.com:RoySchor/personalWebsite.git
+git branch -M main
+git push -u origin main
+exit
+ls
+cd assets
+ls
+cd css
+ls
+cd ..
+cd js
+ls
+cd ..
+ls
