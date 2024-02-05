@@ -113,3 +113,7 @@ git add .
 git commit -m "started adding additional section"
 git push
 exit
+git add .
+git commit -m "added additional sections to website"
+git push
+exit
