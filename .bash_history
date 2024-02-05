@@ -109,3 +109,7 @@ git add .
 git commit -m "added additional changes"
 git push
 exit
+git add .
+git commit -m "started adding additional section"
+git push
+exit
