@@ -46,10 +46,13 @@
                             <a class="nav-link" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About Me</a>
+                            <a class="nav-link" href="#education-experience">Education & Experience</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#volunteering">Volunteering</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#blog">Personal Blog</a>
@@ -189,8 +192,8 @@
             </section>
             <!-- //Projects -->
 
-            <!-- About Me -->
-            <section id="about" class="full-height px-lg-5">
+            <!-- Education & Experience -->
+            <section id="education-experience" class="full-height px-lg-5">
                 <div class="container">
 
                     <div class="row pb-4" data-aos="fade-up">
@@ -309,7 +312,7 @@
 
                 </div>
             </section>
-            <!-- // About ME -->
+            <!-- // Education & Experience -->
 
             <!-- Resume -->
             <section id="resume" class="full-height px-lg-5">
@@ -335,6 +338,60 @@
 
             <!-- //Resume -->
 
+            <!-- Volunteering -->
+            <section id="volunteering" class="full-height px-lg-5">
+                <div class="container">
+
+                    <div class="row pb-4 justify-content-center text-center" data-aos="fade-up">
+                        <h6 class="text-brand">What I'm All About</h6>
+                        <h1 class="pb-3">My Past Volunteering Experiences</h1>
+                        
+                        <p class="px-lg-5">
+                            I am an ambitious and energetic individual; always looking for something to keep me busy. 
+                            As such, I've devoted a large part of my free-time to volunteering in various fields.
+                            I've in volunteered anywhere from a zoo to an army base and everything in between.
+                            <br><br>
+                            Here's a glimpse of some expereinces I wanted to highlight!
+                        </p>
+                    </div>
+
+                    <div class="row gy-5">
+                        <div class="col-lg-6">
+                            <div class="row gy-4">
+
+                                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                    <div class="bg-base p-4 rounded-4 shadow-effect">
+                                        <h4>B.S. Computer Science</h4>
+                                        <p class="text-brand mb-2">
+                                            The Pennsylvania State University, College of Engineering (2020-2024)
+                                        </p>
+                                        <p class="mb-0">
+                                            **Anticipated Graduation May 2024
+                                            <br><br>
+                                            A Bachelor of Science in Computer Science and a minor in Business Administration.
+                                            Current GPA: 3.62
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>          
+                        </div>
+
+                        <div class="col-lg-6">
+                            
+                            <div class="custom-resume rounded-4 bg-base">
+                                <div class="custom-resume-image rounded-4" data-aos="fade-up" data-aos-delay="300">
+                                    <img src="./assets/images/family-in-belize.webp" alt="">
+                                </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- //Volunteering -->
 
             <!-- Contact Page -->
             <section id="contact" class="full-height px-lg-5">
@@ -353,18 +410,18 @@
                         </div>
 
                         <div class="col-lg-8">
-                            <form action="#" class="row g-lg-3 gy-3">
+                            <form action="#" method="POST" class="row g-lg-3 gy-3">
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" placeholder="Enter your name">
+                                    <input type="text" class="form-control" name="name" placeholder="Enter your name" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" placeholder="Enter your email">
+                                    <input type="text" class="form-control" name="email" placeholder="Enter your email/ way to reach out">
                                 </div>
                                 <div class="form-group col-12">
-                                    <input type="text" class="form-control" placeholder="Enter subject">
+                                    <input type="text" class="form-control" name="subject" placeholder="Enter subject">
                                 </div>
                                 <div class="form-group col-12">
-                                    <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                                    <textarea name="" rows="4" class="form-control" name="message" placeholder="Enter your message" required></textarea>
                                 </div>
                                 <div class="form-group col-12 d-grid">
                                     <button type="submit" class="btn btn-brand">Contact Me</button>
@@ -383,5 +440,16 @@
         <script src="./assets/js/bootstrap.bundle.min.js"></script>
         <script src="./assets/js/aos.js"></script>
         <script src="./assets/js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Click listener for Navigation bar to collapse after clicking on an option -->
+        <script>
+            $(document).ready(function(){
+                $('.navbar-nav .nav-link').click(function(){
+                    $('.navbar-collapse').collapse('hide');
+                });
+            });
+        </script>
+
     </body>
 </html>
