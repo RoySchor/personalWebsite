@@ -129,3 +129,8 @@ git add .
 git commit -m "added resume section"
 git push
 exit
+git status
+git add .
+git commit -m "added additional changes to a new section and images"
+git push
+exit

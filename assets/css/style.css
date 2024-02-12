@@ -181,6 +181,11 @@ img {
     transition: all 0.4s ease;
 }
 
+/* Israel Volunteer Image */
+.custom-israel-volunteer .custom-israel-volunteer-image img {
+    height: 50px;
+}
+
 /* Contact Section */
 #contact .form-control {
     background-color: var(--color-base);
