@@ -134,3 +134,9 @@ git add .
 git commit -m "added additional changes to a new section and images"
 git push
 exit
+ls
+git status
+git add .
+git commit -m "some more style and informative changes"
+git push
+exit
