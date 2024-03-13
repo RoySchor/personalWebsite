@@ -146,17 +146,31 @@ img {
     width: 100%;
 }
 
-/* Card */
-.custom-card .custom-card-image {
-    overflow: hidden;
-}
+/* Projects */
 
 .custom-card .custom-card-image img {
     object-fit: cover;
     transition: all 0.4s ease;
 }
 
+.custom-card-campus-map-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-card .custom-card-campus-map-image img {
+    height: 500px;
+    width: 250px;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+
 .custom-card:hover .custom-card-image img {
+    transform: scale(1.1);
+}
+
+.custom-card:hover .custom-card-campus-map-image img {
     transform: scale(1.1);
 }
 
@@ -182,8 +196,23 @@ img {
 }
 
 /* Israel Volunteer Image */
-.custom-israel-volunteer .custom-israel-volunteer-image img {
+.custom-volunteer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.custom-volunteer .custom-volunteer-image img {
     height: 300px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.custom-volunteer .custom-zoo-volunteer-image img {
+    height: 250px;
+    width: 500px;
+    border-radius: 15px;
 }
 
 /* Contact Section */
