@@ -101,7 +101,7 @@ const quotes = [
   "\"Many people die at twenty five and aren't buried until they are seventy five.\" - Benjamin Franklin",
   "\"I alone cannot change the world, but I can cast a stone across the water to create many ripples.\" - Mother Mary Teresa Bojaxhiu, lived in Ottaman Empire",
   "There are more Trump voters in California than Texas, more Biden voters in Texas than NY, more Trump voters in NY than Ohio, more Biden voters in Ohio than Massachusetts, more Trump voters in Massachusetts than Mississippi, and more Biden voters in Mississippi than Vermont. - Facts",
-  "A nerve in the brain of a Girafee loops from the brain, all the way down the neck to a reach a spot a few inches away. As the neck evolved then the need for that nerve evolved. Covereing a distance of a few meters for a few inches. - Evolution doesn't think into the far future",
+  "A nerve in the brain of a Girafee loops from the brain, all the way down the neck to a reach a spot a few inches away. The neck evolved then the need for that nerve evolved. Covering a distance of a few meters for a few inches. - Evolution doesn't think into the far future",
   "The phrase 'going the whole 9 yards' is from the standard US ammo belt being 27 feet or 9 yards. - Facts",
   "In today's world 2020, around 1/5 or 20% of fish in markets and restaurants are mislabeled by mistake or to get the customer to spend more for less. - Facts",
   "1 in 115 people with a college degree in America is a Penn Stater. - Facts",
