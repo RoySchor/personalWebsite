@@ -119,8 +119,17 @@ img {
     color: var(--color-base);
 }
 
+.btn-quote{
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+    color: var(--color-base);
+    width: 300px;
+}
+
 .btn-brand:hover,
-.btn-brand:focus {
+.btn-brand:focus,
+.btn-quote:hover,
+.btn-quote:focus {
     background-color: var(--color-brand2);
     color: var(--color-base);
     border-color: var(--color-brand2);
@@ -203,7 +212,13 @@ img {
     height: 100%;
 }
 
-.custom-volunteer .custom-volunteer-image img {
+.custom-volunteer .custom-israel-volunteer-image img {
+    height: 320px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.custom-volunteer .custom-thon-volunteer-image img {
     height: 300px;
     width: 350px;
     border-radius: 15px;
@@ -211,7 +226,7 @@ img {
 
 .custom-volunteer .custom-zoo-volunteer-image img {
     height: 250px;
-    width: 500px;
+    width: 450px;
     border-radius: 15px;
 }
 
