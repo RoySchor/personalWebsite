@@ -16,7 +16,9 @@
                 <div class="custom-card rounded-4 bg-base shadow-effect">
 
                     <div class="custom-card-campus-map-image rounded-4">
-                        <img class="rounded-4" src="./assets/images/Initial-map-view.webp" alt="">
+                        <a href="https://github.com/RoySchor/CampusMapApp" target="_blank">
+                            <img class="rounded-4" src="./assets/images/Initial-map-view.webp" alt="">
+                        </a>
                     </div>
 
                     <div class="custom-card-content p-4">
@@ -38,7 +40,9 @@
                 <div class="custom-card rounded-4 bg-base shadow-effect">
 
                     <div class="custom-card-image rounded-4">
-                        <img class="rounded-4" src="./assets/images/WordWizz-main-pic.jpg" alt="">
+                        <a href="https://github.com/RoySchor/WordWizzScrambleApp" target="_blank">
+                            <img class="rounded-4" src="./assets/images/WordWizz-main-pic.jpg" alt="">
+                        </a>
                     </div>
 
                     <div class="custom-card-content p-4">
@@ -58,7 +62,9 @@
                 <div class="custom-card rounded-4 bg-base shadow-effect">
 
                     <div class="custom-card-image rounded-4">
-                        <img class="rounded-4" src="./assets/images/stock-neural-network-cover-img.jpeg" alt="">
+                        <a href="https://medium.com/@royschor/artificial-neural-networks-and-stocks-7d17474c14c8" target="_blank">
+                            <img class="rounded-4" src="./assets/images/stock-neural-network-cover-img.jpeg" alt="">
+                        </a>
                     </div>
 
                     <div class="custom-card-content p-4">
@@ -79,7 +85,9 @@
                 <div class="custom-card rounded-4 bg-base shadow-effect">
 
                     <div class="custom-card-image rounded-4">
-                        <img class="rounded-4" src="./assets/images/european-travel-guide-ui.jpeg" alt="">
+                        <a href="https://github.com/RoySchor/european_travel_guide" target="_blank">
+                            <img class="rounded-4" src="./assets/images/european-travel-guide-ui.jpeg" alt="">
+                        </a>
                     </div>
 
                     <div class="custom-card-content p-4">
@@ -99,7 +107,9 @@
                 <div class="custom-card rounded-4 bg-base shadow-effect">
 
                     <div class="custom-card-image rounded-4">
-                        <img class="rounded-4" src="./assets/images/smart-contract.gif" alt="">
+                        <a href="https://github.com/RoySchor/Lottery-Smart-Contract" target="_blank">
+                            <img class="rounded-4" src="./assets/images/smart-contract.gif" alt="">
+                        </a>
                     </div>
 
                     <div class="custom-card-content p-4">

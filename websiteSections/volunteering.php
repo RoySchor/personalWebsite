@@ -19,7 +19,7 @@
             <div class="col-lg-6">
                 <div class="row gy-4">
 
-                    <div class="col-12 pt-5 pb-5" data-aos="fade-up" data-aos-delay="600">
+                    <div class="col-12 pt-5 pb-4 mb-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="bg-base p-4 rounded-4 shadow-effect">
                             <h4>Israel Strawberry Farming Volunteer</h4>
                             <p class="mb-0">
@@ -31,7 +31,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 pt-5 pb-2" data-aos="fade-up" data-aos-delay="600">
+                    <div class="col-12 mt-5 pt-4 pb-2" data-aos="fade-up" data-aos-delay="600">
                         <div class="bg-base p-4 rounded-4 shadow-effect">
                             <h4>THON Opperations Committee and Greek Life Volunteer</h4>
                             <p class="mb-0">
@@ -44,7 +44,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 pt-2" data-aos="fade-up" data-aos-delay="600">
+                    <div class="col-12 pt-4" data-aos="fade-up" data-aos-delay="900">
                         <div class="bg-base p-4 rounded-4 shadow-effect">
                             <h4>Lehigh Valley Zoo General Volunteer</h4>
                             <p class="mb-0">
@@ -71,13 +71,13 @@
                     </div>
 
                     <div class="custom-volunteer rounded-4">
-                        <div class="custom-thon-volunteer-image rounded-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="custom-thon-volunteer-image rounded-4" data-aos="fade-up" data-aos-delay="600">
                             <img src="./assets/images/Thon-2022.webp" alt="">
                         </div>
                     </div>
                 
                     <div class="custom-volunteer rounded-4">
-                        <div class="custom-zoo-volunteer-image rounded-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="custom-zoo-volunteer-image rounded-4" data-aos="fade-up" data-aos-delay="900">
                             <img src="./assets/images/Zoo Volunteer.webp" alt="">
                         </div>
                     </div>

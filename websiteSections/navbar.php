@@ -8,7 +8,7 @@
                 <!-- This blocks the title Roy Schor on large screens and shows the headshot instead
                     on smaller screens the headshot is blocked and the name is viewed -->
                 <span class="h3 fw-bold d-block d-lg-none">Roy Schor</span>
-                <img src="./assets/images/Headshot.JPG" class="d-none d-lg-block rounded-circle" alt="">
+                <img src="./assets/images/Headshot.webp" class="d-none d-lg-block rounded-circle" alt="">
             </a>
             <!-- //Navigation Bar Name title and image -->
 

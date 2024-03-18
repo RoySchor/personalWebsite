@@ -12,7 +12,9 @@
         <div class="col-md-8" data-aos="fade-up">
             <div class="custom-resume rounded-4 bg-base shadow-effect">
                 <div class="custom-resume-image rounded-4">
-                    <img src="./assets/images/resume.jpg" alt="">
+                    <a href="./assets/downloadableFiles/Schor, Roy Resume.pdf" download="Schor, Roy Resume.pdf">
+                        <img src="./assets/images/resume.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </div>
