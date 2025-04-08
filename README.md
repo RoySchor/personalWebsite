@@ -1,4 +1,4 @@
-# [royschor.com](royschor.com)
+# [royschor.com](http://royschor.com)
 
 ### Live and Active
 
